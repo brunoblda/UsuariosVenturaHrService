@@ -21,9 +21,9 @@ public class UsuarioRepository {
     public UsuarioRepository(){
         
         usuarios = new HashMap<>();
-        usuarios.put(1, new Usuario(1,"Bruno Luiz", "Brasilia", "61988985447", "bruno@email.com", "1234", "Candidato", "334.234.567-78", null, null, true));
-        usuarios.put(2, new Usuario(2,"Carlos Gomes", "São Paulo", "48899751234", "Carlos@email.com", "1234", "Candidato", "335.234.777-98", "Carlos tecnologia sa", "45.343.789/0001-45", true));
-        usuarios.put(3, new Usuario(3,"Andrea Ferreira", "Rio de Janeiro", "31956985117", "Andrea@email.com", "1234", "Empresa", "023.294.117-32", "Andrea solucoes sa", "13.647.789/0001-33", true));       
+        usuarios.put(1, new Usuario(1,"Bruno Luiz", "Brasilia", "61988985447", "bruno@email.com", "1234", "Candidato", "334.234.567-78", null, null));
+        usuarios.put(2, new Usuario(2,"Carlos Gomes", "São Paulo", "48899751234", "Carlos@email.com", "1234", "Candidato", "335.234.777-98", "Carlos tecnologia sa", "45.343.789/0001-45"));
+        usuarios.put(3, new Usuario(3,"Andrea Ferreira", "Rio de Janeiro", "31956985117", "Andrea@email.com", "1234", "Empresa", "023.294.117-32", "Andrea solucoes sa", "13.647.789/0001-33"));       
     }
         
      public Collection<Usuario> listar(){

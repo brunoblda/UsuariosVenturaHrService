@@ -17,10 +17,9 @@ public class Usuario {
     private String tipoDeConta;
     private String cpf;
     private String razaoSocial;
-    private Boolean administrador;
     private String cnpj;
 
-    public Usuario(Integer id, String nome, String endereco, String telefone, String email, String senha, String tipoDeConta, String cpf, String razaoSocial, String cnpj, Boolean administrador) {
+    public Usuario(Integer id, String nome, String endereco, String telefone, String email, String senha, String tipoDeConta, String cpf, String razaoSocial, String cnpj) {
         this.id = id;
         this.nome = nome;
         this.endereco = endereco;
@@ -31,15 +30,7 @@ public class Usuario {
         this.cpf = cpf;
         this.razaoSocial = razaoSocial;
         this.cnpj = cnpj;
-        this.administrador = administrador;
-    }
-
-    public Boolean getAdministrador() {
-        return administrador;
-    }
-
-    public void setAdministrador(Boolean administrador) {
-        this.administrador = administrador;
+ 
     }
           
     
